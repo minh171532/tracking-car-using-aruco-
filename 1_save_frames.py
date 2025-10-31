@@ -32,7 +32,7 @@ def save_snap(width=0, height=0, name="snapshot", folder = "save_images"):
 
 
 
-save_snap(width=1920, height=1080)
+save_snap(width=1080, height=1920)
 
 
 
