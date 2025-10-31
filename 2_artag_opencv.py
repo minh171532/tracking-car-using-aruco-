@@ -54,7 +54,7 @@ dst = cv2.remap(img, mapx, mapy, cv2.INTER_LINEAR)
 
 # crop the image
 x, y, w, h = roi
-dst = dst[y:y + h, x:x + w]
+dst = dst[y:y + w, x:x + h]
 print("ROI: ", x, y, w, h)
 
 # cv2.imwrite("calibresult.png", dst)
